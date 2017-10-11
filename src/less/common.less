@@ -23,7 +23,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    font-family: "Microsoft Yahei";
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -31,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: "Microsoft YaHei","\5fae\8f6f\96c5\9ed1","\5b8b\4f53",sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -135,6 +135,7 @@ a {
 }
 .bread-crumb {
     font-size:13px;
+    margin:20px 0;
 }
 .header-search {
     form {
@@ -216,6 +217,16 @@ a {
 .container {
     margin-bottom: 10px;
 }
+// 字体大小
+h2 {
+    height:55px;
+    line-height: 55px;
+    overflow: hidden;
+    span {
+        font-size:28px;
+        font-weight: 800;
+    }
+}
 h3.title {
     height: 40px;
     line-height: 40px;
@@ -224,6 +235,10 @@ h3.title {
         font-size: 18px;
         font-weight: bold;
     }
+}
+
+a.link {
+    .link();
 }
 
 // 新闻列表
@@ -290,5 +305,64 @@ h3.title {
     color:@color-1;
     &:hover {
         background:#D8D8D8;
+    }
+}
+
+// 排行榜
+ul.rank {
+    li {
+        overflow: hidden;
+        line-height: 20px;
+        height:20px;
+        margin-bottom: 4px;
+        i,a,em {
+            line-height: 20px;
+            height:20px;
+        }
+        i {
+            font-size:12px;
+            text-align: center;
+            margin-right: 2px;
+            width:20px;
+            float:left;
+        }
+        a {
+            line-height: 20px;
+            height:20px;
+            width:170px;
+            font-size:13px;
+            float:left;
+            color:rgba(12, 90, 192, 0.88);
+            .no-wrap();
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        em {
+            float:right;
+            line-height: 20px;
+            height:20px;
+            font-size:12px;
+            color:@color-2;
+            text-align: right;
+            width:60px;
+        }
+    }
+}
+
+// 次级导航
+
+.sec-nav {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: @globle-border;
+    margin-bottom: 20px;
+    padding-left:10px;
+    background:@globle-background;
+    a {
+        font-size:14px;
+        margin-right:20px;
+        color:@color-1;
+        .link();
     }
 }

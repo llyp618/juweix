@@ -1,0 +1,54 @@
+.banner li {
+  width: 20%;
+  float: left;
+  margin: 0;
+}
+.banner a {
+  display: block;
+  margin: 5px;
+}
+.banner a img {
+  width: 100%;
+}
+.find-source {
+  border-top: 1px solid #DCDCDC;
+  margin-top: 20px;
+}
+.find-source .conditions p {
+  line-height: 40px;
+  font-size: 15px;
+  height: 40px;
+  border-bottom: 1px dotted #ccc;
+}
+.find-source .conditions strong {
+  display: inline-block;
+  width: 100px;
+  color: #D13931;
+}
+.find-source .conditions a {
+  display: inline-block;
+  margin-right: 20px;
+}
+.find-source .conditions a.active {
+  color: #d11216;
+}
+.find-source .conditions a:hover {
+  color: #d11216;
+}
+.source-list {
+  margin-top: 20px;
+  position: relative;
+}
+.source-list .source-list-tab {
+  border-bottom: 1px solid #DCDCDC;
+}
+.source-list .source-list-tab a {
+  display: inline-block;
+  margin-right: 40px;
+  padding: 5px 10px;
+  background: #F5F5F5;
+}
+.source-list .source-list-tab a.active {
+  background: #FA3737;
+  color: #fff;
+}

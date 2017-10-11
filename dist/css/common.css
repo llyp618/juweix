@@ -88,7 +88,6 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: "Microsoft Yahei";
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -106,6 +105,7 @@ section {
 }
 body {
   line-height: 1;
+  font-family: "Microsoft YaHei", "\5fae\8f6f\96c5\9ed1", "\5b8b\4f53", sans-serif;
 }
 ol,
 ul {
@@ -215,6 +215,7 @@ a {
 }
 .bread-crumb {
   font-size: 13px;
+  margin: 20px 0;
 }
 .header-search form {
   width: 100%;
@@ -302,6 +303,15 @@ a {
 .container {
   margin-bottom: 10px;
 }
+h2 {
+  height: 55px;
+  line-height: 55px;
+  overflow: hidden;
+}
+h2 span {
+  font-size: 28px;
+  font-weight: 800;
+}
 h3.title {
   height: 40px;
   line-height: 40px;
@@ -310,6 +320,12 @@ h3.title {
 h3.title span {
   font-size: 18px;
   font-weight: bold;
+}
+a.link.active {
+  color: #d11216;
+}
+a.link:hover {
+  color: #d11216;
 }
 .news-item {
   overflow: hidden;
@@ -368,4 +384,66 @@ h3.title span {
 }
 .for-more:hover {
   background: #D8D8D8;
+}
+ul.rank li {
+  overflow: hidden;
+  line-height: 20px;
+  height: 20px;
+  margin-bottom: 4px;
+}
+ul.rank li i,
+ul.rank li a,
+ul.rank li em {
+  line-height: 20px;
+  height: 20px;
+}
+ul.rank li i {
+  font-size: 12px;
+  text-align: center;
+  margin-right: 2px;
+  width: 20px;
+  float: left;
+}
+ul.rank li a {
+  line-height: 20px;
+  height: 20px;
+  width: 170px;
+  font-size: 13px;
+  float: left;
+  color: rgba(12, 90, 192, 0.88);
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+ul.rank li a:hover {
+  text-decoration: underline;
+}
+ul.rank li em {
+  float: right;
+  line-height: 20px;
+  height: 20px;
+  font-size: 12px;
+  color: #979696;
+  text-align: right;
+  width: 60px;
+}
+.sec-nav {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #DCDCDC;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  background: #F5F5F5;
+}
+.sec-nav a {
+  font-size: 14px;
+  margin-right: 20px;
+  color: #5A5959;
+}
+.sec-nav a.active {
+  color: #d11216;
+}
+.sec-nav a:hover {
+  color: #d11216;
 }
