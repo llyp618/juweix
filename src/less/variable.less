@@ -4,7 +4,7 @@
 @color-1:#5A5959;
 @color-2:#979696;
 @link:#0099CC;
-
+@highlight1: #d11216;
 @shadow: #E4E2E2;
 .no-wrap() {
     overflow: hidden;
@@ -17,5 +17,19 @@
     }
     &:hover {
         color:#d11216;
+    }
+}
+//列表点
+.list-dot() {
+    position: relative;
+    padding-left:8px;
+    &::before {
+        content:'';
+        width:4px;
+        height:4px;
+        background:#ccc;
+        position: absolute;
+        top:8px;
+        left:0;
     }
 }

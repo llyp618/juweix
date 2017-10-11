@@ -8,17 +8,12 @@
   border-left: 3px solid red;
   padding-left: 10px;
 }
-.hottest .hottest-left {
-  float: left;
-  width: 850px;
-  padding-right: 20px;
-}
 .hottest .hottest-right {
-  float: right;
   overflow: hidden;
-  width: 300px;
+}
+.hottest .hottest-right img {
   height: 300px;
-  border: 1px solid #ccc;
+  width: 300px;
 }
 .top-article {
   padding-bottom: 15px;
@@ -34,19 +29,19 @@
   width: 298px;
   height: 150px;
   border: 1px solid #DCDCDC;
+  margin-right: 15px;
 }
-.top-article .top-article-info {
-  float: right;
-  width: 520px;
-  padding: 0 15px;
+.top-article .top-article-img img {
+  height: 100%;
+  width: 100%;
 }
 .top-article .top-article-info p {
   font-size: 14px;
   color: #5A5959;
   line-height: 22px;
   height: 130px;
-  text-align: justify;
   width: 100%;
+  text-align: justify;
 }
 .top-article .top-article-info .top-article-intro {
   vertical-align: bottom;
@@ -82,12 +77,6 @@
 .read-list {
   margin-top: 20px;
 }
-.read-list .left-list {
-  float: left;
-  width: 850px;
-  position: relative;
-  padding-bottom: 60px;
-}
 .read-list .left-list .left-list-nav {
   line-height: 40px;
   height: 40px;
@@ -104,6 +93,10 @@
 .read-list .left-list .left-list-nav a.active {
   border-bottom: 2px solid #d11216;
 }
+.read-list .left-list .left-list-content {
+  padding-bottom: 60px;
+  position: relative;
+}
 .read-list .left-list .news-item {
   border-bottom: 1px solid #DCDCDC;
   padding-bottom: 20px;
@@ -117,10 +110,6 @@
 .read-list .left-list .for-more {
   position: absolute;
   bottom: 10px;
-}
-.read-list .right-list {
-  float: right;
-  width: 300px;
 }
 .right-list-classify {
   border-top: 1px solid #DCDCDC;

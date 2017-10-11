@@ -9,17 +9,12 @@
         border-left:3px solid red;
         padding-left:10px;
     }
-    .hottest-left {
-        float:left;
-        width:850px;
-        padding-right:20px;
-    }
     .hottest-right {
-        float:right;
         overflow: hidden;
-        width:300px;
-        height:300px;
-        border:1px solid #ccc;
+        img {
+            height:300px;
+            width:300px;
+        }
     }
 }
 
@@ -36,11 +31,13 @@
         width:298px;
         height:150px;
         border:@globle-border;
+        margin-right:15px;
+        img {
+            height:100%;
+            width:100%;
+        }
     }
     .top-article-info {
-        float:right;
-        width:520px;
-        padding: 0 15px;
         p {
             font-size:14px;
             color:@color-1;
@@ -48,6 +45,7 @@
             height: 130px;
             text-align: justify;
             width:100%;
+            text-align: justify;
         }
         .top-article-intro {
             vertical-align: bottom;
@@ -80,10 +78,6 @@
 .read-list {
     margin-top:20px;
     .left-list {
-        float:left;
-        width:850px;
-        position: relative;
-        padding-bottom: 60px;
         .left-list-nav {
             line-height: 40px;
             height:40px;
@@ -100,6 +94,11 @@
                 }
             }
         }
+        .left-list-content {
+            position: relative;
+            padding-bottom: 60px;
+            position: relative;
+        }
         .news-item {
             border-bottom: @globle-border;
             padding-bottom: 20px;
@@ -114,11 +113,6 @@
             position: absolute;
             bottom:10px;
         }
-    }
-    .right-list {
-        float:right;
-        width:300px;
-        
     }
 }
 .right-list-classify {

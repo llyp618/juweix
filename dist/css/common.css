@@ -447,3 +447,26 @@ ul.rank li em {
 .sec-nav a:hover {
   color: #d11216;
 }
+.fl {
+  float: left;
+  width: 880px;
+  padding-right: 20px;
+}
+.fr {
+  float: right;
+  width: 300px;
+}
+.pagination {
+  margin-top: 40px;
+  text-align: center;
+}
+.pagination a {
+  color: #5A5959;
+  padding: 2px 8px;
+  border: 1px solid #DCDCDC;
+  margin-right: 10px;
+}
+.pagination a.active {
+  color: #d11216;
+  border-color: #d11216;
+}
