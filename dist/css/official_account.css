@@ -32,3 +32,71 @@
   text-align: center;
   margin-top: 30px;
 }
+.oa-content {
+  background: #F5F5F5;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+.oa-content .oa-lists {
+  overflow: hidden;
+  padding-left: 10px;
+}
+.oa-content .oa-lists .oa-classify {
+  border-bottom: 1px solid #DCDCDC;
+  margin-bottom: 20px;
+}
+.oa-content .oa-lists .oa-classify a {
+  display: inline-block;
+  margin-left: 13px;
+  font-size: 13px;
+}
+.oa-content .oa-lists .oa-classify a.active {
+  color: #d11216;
+}
+.oa-content .oa-lists .oa-classify a:hover {
+  color: #d11216;
+}
+.oa-content .oa-lists ul {
+  margin-left: -13px;
+  margin-right: -13px;
+  overflow: hidden;
+}
+.oa-content .oa-lists ul li {
+  float: left;
+  padding: 0 13px;
+  margin-bottom: 13px;
+}
+.oa-content .oa-rank {
+  padding: 0 10px;
+}
+.oa-content .oa-rank h3 {
+  font-weight: bold;
+  line-height: 40px;
+}
+.oa-content .oa-rank .ad {
+  border: 1px solid #ccc;
+  height: 120px;
+}
+.oa-content .oa-rank .list-dot {
+  font-size: 14px;
+  color: #5A5959;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.oa-content .oa-rank .list-dot p {
+  margin-bottom: 6px;
+  position: relative;
+  padding-left: 8px;
+}
+.oa-content .oa-rank .list-dot p a:hover {
+  text-decoration: underline;
+}
+.oa-content .oa-rank .list-dot p::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: #ccc;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}

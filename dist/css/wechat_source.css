@@ -119,7 +119,7 @@
   height: 4px;
   background: #ccc;
   position: absolute;
-  top: 8px;
+  top: 10px;
   left: 0;
 }
 .source-list-content .source-item .item-tag i {
@@ -139,7 +139,7 @@
   font-size: 14px;
 }
 .content-right h3 {
-  font-size: 18px;
+  font-size: 16px;
   padding-left: 10px;
   border-left: 3px solid #FA3737;
   font-weight: bold;
@@ -167,7 +167,7 @@
   height: 4px;
   background: #ccc;
   position: absolute;
-  top: 8px;
+  top: 10px;
   left: 0;
 }
 .content-right .hot-product p a:hover {

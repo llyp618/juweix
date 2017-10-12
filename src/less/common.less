@@ -52,6 +52,9 @@ a {
     text-decoration: none;
     color:inherit;
 }
+h3 {
+    font-weight: bold;
+}
 .clear:after {
     content: '';
     display: block;
@@ -327,6 +330,14 @@ ul.rank {
             margin-right: 2px;
             width:20px;
             float:left;
+            font-family: "Georgia";
+            color:@color-1;
+        }
+        &:nth-child(1),&:nth-child(2),&:nth-child(3) {
+            i {
+                color:red;
+                font-size:15px;
+            }
         }
         a {
             line-height: 20px;
@@ -387,6 +398,7 @@ ul.rank {
 .pagination {
     margin-top:40px;
     text-align: center;
+    height: 30px;
     a {
         color:@color-1;
         padding:2px 8px;
@@ -425,6 +437,10 @@ a.wechat-head {
     display: inline-block;
     img,em {
         display: block;
+    }
+    em {
+        font-size:13px;
+        text-align: center;
     }
     img {
         margin-bottom:5px;

@@ -130,6 +130,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h3 {
+  font-weight: bold;
+}
 .clear:after {
   content: '';
   display: block;
@@ -405,6 +408,14 @@ ul.rank li i {
   margin-right: 2px;
   width: 20px;
   float: left;
+  font-family: "Georgia";
+  color: #5A5959;
+}
+ul.rank li:nth-child(1) i,
+ul.rank li:nth-child(2) i,
+ul.rank li:nth-child(3) i {
+  color: red;
+  font-size: 15px;
 }
 ul.rank li a {
   line-height: 20px;
@@ -462,6 +473,7 @@ ul.rank li em {
 .pagination {
   margin-top: 40px;
   text-align: center;
+  height: 30px;
 }
 .pagination a {
   color: #5A5959;
@@ -494,6 +506,10 @@ a.wechat-head {
 a.wechat-head img,
 a.wechat-head em {
   display: block;
+}
+a.wechat-head em {
+  font-size: 13px;
+  text-align: center;
 }
 a.wechat-head img {
   margin-bottom: 5px;
