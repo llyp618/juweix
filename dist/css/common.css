@@ -487,3 +487,17 @@ ul.rank li em {
 .btn:hover {
   background: #1082B3;
 }
+a.wechat-head {
+  width: 80px;
+  display: inline-block;
+}
+a.wechat-head img,
+a.wechat-head em {
+  display: block;
+}
+a.wechat-head img {
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  width: 100%;
+}

@@ -5,11 +5,30 @@
 .oa-banner .oa-banner-left {
   float: left;
   height: 300px;
-  width: 598px;
+  width: 498px;
   border: 1px solid #DCDCDC;
   text-align: center;
 }
 .oa-banner .oa-banner-right {
+  width: 480px;
   float: right;
   height: 300px;
+}
+.oa-banner-right h3 {
+  font-weight: 800;
+  line-height: 1.2;
+}
+.oa-banner-right h3 span {
+  padding-left: 10px;
+  border-left: 3px solid red;
+}
+.oa-banner-right ul {
+  margin-left: -26px;
+  margin-right: -26px;
+}
+.oa-banner-right ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 30px;
 }

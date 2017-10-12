@@ -83,6 +83,8 @@
   margin-bottom: 5px;
   border-radius: 3px;
   border: 1px solid #eee;
+  width: 80px;
+  height: 80px;
 }
 .recent-included .left-box {
   width: 755px;
@@ -101,11 +103,11 @@
   margin-right: 15px;
 }
 .recent-included .left-box ul {
-  margin-left: 10px;
+  margin-left: 4px;
 }
 .recent-included .left-box ul li {
   float: left;
-  padding: 10px;
+  padding: 11px;
   text-align: center;
   font-size: 12px;
 }
@@ -117,6 +119,8 @@
   margin-bottom: 5px;
   border-radius: 3px;
   border: 1px solid #eee;
+  width: 80px;
+  height: 80px;
 }
 .recent-included .right-box {
   float: right;
@@ -177,10 +181,11 @@
 .classify .classify-box h3 a {
   float: right;
   color: #979696;
-  margin-right: 32px;
+  margin-right: 25px;
 }
 .classify .classify-box ul {
   overflow: hidden;
+  margin-left: -20px;
 }
 .classify .classify-box ul li {
   float: left;
@@ -198,6 +203,8 @@
   border: 1px solid #eee;
   margin: 0 auto;
   margin-bottom: 5px;
+  width: 80px;
+  height: 80px;
 }
 .top-line {
   padding: 10px 15px;
