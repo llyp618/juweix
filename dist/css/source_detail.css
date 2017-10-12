@@ -1,0 +1,144 @@
+.sec-nav .btn {
+  width: 100px;
+  float: right;
+  margin-top: 7px;
+  font-size: 14px;
+}
+.source-head .source-img {
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+.source-head .source-img img {
+  width: 100%;
+  height: 100%;
+}
+.source-head .source-info {
+  padding-left: 36px;
+  width: 800px;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+.source-head .source-info h2 {
+  line-height: 1.1;
+  height: auto;
+  margin-bottom: 15px;
+}
+.source-head .source-info li {
+  line-height: 32px;
+}
+.source-head .source-info li span {
+  color: #5A5959;
+}
+.source-head .source-info p {
+  position: absolute;
+  bottom: 0px;
+  color: #5A5959;
+}
+.source-head .source-info p em {
+  color: #979696;
+  margin-right: 20px;
+}
+.source-head .source-info p b {
+  color: #d11216;
+}
+.source-head .source-info .qrcode {
+  padding: 20px;
+  border: 1px solid #DCDCDC;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #5A5959;
+  font-size: 14px;
+  line-height: 18px;
+}
+.source-content {
+  margin-top: 40px;
+}
+.source-content .source-content-title {
+  border-bottom: 1px solid #DCDCDC;
+  margin-bottom: 20px;
+}
+.source-content .source-content-title span {
+  display: inline-block;
+  background: #FA3737;
+  padding: 10px;
+  color: #fff;
+}
+.content-left h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.content-left .content-intro {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #5A5959;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.content-left .content-intro p {
+  margin-bottom: 5px;
+}
+.content-left .content-img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content-left .content-img img {
+  width: 100%;
+}
+.content-left .content-contact {
+  border: 1px solid #DCDCDC;
+  padding: 20px;
+  color: #5A5959;
+  margin-bottom: 20px;
+}
+.content-left .content-contact .qrcode {
+  width: 160px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  float: left;
+  margin-right: 12px;
+}
+.content-left .content-contact p {
+  line-height: 30px;
+}
+.content-left .content-contact p span {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+.content-right h3 {
+  font-size: 18px;
+  padding-left: 10px;
+  border-left: 3px solid #FA3737;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.content-right .ad {
+  border: 1px solid #ccc;
+  height: 150px;
+  margin-bottom: 15px;
+}
+.content-right p {
+  line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #5A5959;
+  position: relative;
+  padding-left: 8px;
+}
+.content-right p::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: #ccc;
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+.content-right p a:hover {
+  text-decoration: underline;
+}

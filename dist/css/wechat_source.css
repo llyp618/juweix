@@ -1,3 +1,9 @@
+.sec-nav .btn {
+  width: 100px;
+  float: right;
+  margin-top: 7px;
+  font-size: 14px;
+}
 .banner li {
   width: 20%;
   float: left;
@@ -42,23 +48,26 @@
 }
 .source-list .source-list-tab {
   border-bottom: 1px solid #DCDCDC;
+  overflow: hidden;
 }
-.source-list .source-list-tab a {
+.source-list .source-list-tab a.tab {
   display: inline-block;
   margin-right: 40px;
-  padding: 5px 10px;
+  padding: 10px 10px;
   background: #F5F5F5;
 }
-.source-list .source-list-tab a.active {
+.source-list .source-list-tab a.tab.active {
   background: #FA3737;
   color: #fff;
 }
+.source-list .source-list-tab .btn {
+  float: right;
+  width: 120px;
+  padding: 6px 0;
+  font-size: 14px;
+}
 .source-list .source-list-content {
   margin-top: 20px;
-}
-.source-list-content .content-left {
-  padding-right: 30px;
-  width: 870px;
 }
 .source-list-content .source-item {
   overflow: hidden;
@@ -141,6 +150,7 @@
 .content-right .hot-product .ad {
   border: 1px solid #ccc;
   height: 150px;
+  margin-bottom: 15px;
 }
 .content-right .hot-product p {
   line-height: 22px;
@@ -164,7 +174,7 @@
 }
 .content-right .classify-key .keys a {
   display: inline-block;
-  background: #DFDFDF;
+  background: #E6E5E5;
   color: #5A5959;
   padding: 3px 4px;
   border-radius: 2px;

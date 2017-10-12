@@ -6,7 +6,7 @@
   padding: 10px 15px;
 }
 .recommend-list > li {
-  width: 584px;
+  width: 552px;
   float: left;
   overflow: hidden;
   font-size: 13px;
@@ -23,7 +23,7 @@
 }
 .recommend-list .type-list {
   float: left;
-  width: 524px;
+  width: 492px;
 }
 .recommend-list .type-list li {
   float: left;
@@ -85,7 +85,7 @@
   border: 1px solid #eee;
 }
 .recent-included .left-box {
-  width: 890px;
+  width: 826px;
   float: left;
   padding-left: 15px;
   padding-top: 5px;
@@ -170,7 +170,7 @@
 .classify .classify-box {
   float: left;
   padding: 10px 15px;
-  width: 570px;
+  width: 538px;
 }
 .classify .classify-box h3 a {
   float: right;
@@ -221,9 +221,7 @@
 }
 .top-line .top-line-left {
   float: left;
-  width: 840px;
-  padding-bottom: 60px;
-  position: relative;
+  width: 780px;
 }
 .top-line .top-line-right {
   float: right;
