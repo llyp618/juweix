@@ -89,7 +89,7 @@
 .source-list-content .source-item p {
   height: 40px;
   line-height: 40px;
-  width: 640px;
+  width: 440px;
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
@@ -136,6 +136,7 @@
   color: #979696;
   top: 0;
   right: 0;
+  font-size: 14px;
 }
 .content-right h3 {
   font-size: 18px;

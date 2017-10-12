@@ -12,8 +12,8 @@
   overflow: hidden;
 }
 .hottest .hottest-right img {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 }
 .top-article {
   padding-bottom: 15px;
@@ -57,7 +57,7 @@
   font-family: "sans-serif";
 }
 .hottest-list a {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
   border-right: 1px solid #DCDCDC;
   padding-right: 10px;
@@ -130,38 +130,33 @@
 .right-list-classify ul.recommend-list a {
   overflow: hidden;
   display: block;
-  padding: 10px 0 10px 4px;
+  padding: 10px 0 ;
 }
 .right-list-classify ul.recommend-list a:hover {
   background: #f2f2f2;
 }
 .right-list-classify ul.recommend-list img {
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   float: left;
+  margin-right: 5px;
 }
 .right-list-classify ul.recommend-list span {
-  float: right;
-  width: 220px;
-  line-height: 30px;
-  height: 60px;
-  font-size: 14px;
+  line-height: 25px;
+  font-size: 13px;
   color: #5A5959;
 }
 .right-list-classify .classify-item h4 {
   font-size: 14px;
   margin-bottom: 10px;
 }
-.right-list-classify .classify-item h4 a.active {
-  color: #d11216;
-}
-.right-list-classify .classify-item h4 a:hover {
-  color: #d11216;
+.right-list-classify .classify-item h4 a {
+  color: #0099CC;
 }
 .right-list-classify .classify-item .classify-item-img {
   float: left;
-  width: 120px;
+  width: 100px;
   height: 80px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -172,7 +167,7 @@
 }
 .right-list-classify .classify-item .classify-item-p {
   text-align: justify;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   color: #5A5959;
 }
