@@ -243,12 +243,65 @@
         }
         .group-classify {
             line-height: 24px;
+            margin-bottom:10px;
             a {
                 font-size:14px;
                 display: inline-block;
                 margin-right:4px;
                 .link();
                 color:@color-1;
+            }
+        }
+        .area-form {
+            p {
+                line-height: 40px;
+                select {
+                    display: inline-block;
+                    width:40%;
+                    .no-wrap();
+                }
+            }
+            button {
+                width: 100%;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                background: #169BD5;
+                padding: 10px 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.wechat-source {
+    background:@bg;
+    margin-bottom:20px;
+    .left-box {
+        padding:5px 15px;
+        ul {
+            margin-left:-15px;
+        }
+        li {
+            float:left;
+            width:25%;
+            text-align: center;
+            margin-bottom:10px;
+            .wechat-head {
+                width:150px;
+            }
+        }
+    }
+
+    .right-box {
+        padding:5px 15px;
+        h3 {
+            margin-top:15px;
+            margin-bottom: 10px;
+        }
+        .list-dot {
+            p {
+                .no-wrap();
             }
         }
     }

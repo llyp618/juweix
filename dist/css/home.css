@@ -243,6 +243,7 @@
 }
 .wechat-group .right-box .group-classify {
   line-height: 24px;
+  margin-bottom: 10px;
 }
 .wechat-group .right-box .group-classify a {
   font-size: 14px;
@@ -255,6 +256,58 @@
 }
 .wechat-group .right-box .group-classify a:hover {
   color: #d11216;
+}
+.wechat-group .right-box .area-form p {
+  line-height: 40px;
+}
+.wechat-group .right-box .area-form p select {
+  display: inline-block;
+  width: 40%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.wechat-group .right-box .area-form button {
+  width: 100%;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background: #169BD5;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.wechat-source {
+  background: #F5F5F5;
+  margin-bottom: 20px;
+}
+.wechat-source .left-box {
+  padding: 5px 15px;
+}
+.wechat-source .left-box ul {
+  margin-left: -15px;
+}
+.wechat-source .left-box li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.wechat-source .left-box li .wechat-head {
+  width: 150px;
+}
+.wechat-source .right-box {
+  padding: 5px 15px;
+}
+.wechat-source .right-box h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.wechat-source .right-box .list-dot p {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .top-line {
   background: #F5F5F5;

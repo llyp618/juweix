@@ -522,3 +522,26 @@ a.wechat-head img {
   border: 1px solid #eee;
   width: 100%;
 }
+.list-dot {
+  font-size: 14px;
+  color: #5A5959;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.list-dot p {
+  margin-bottom: 6px;
+  position: relative;
+  padding-left: 8px;
+}
+.list-dot p a:hover {
+  text-decoration: underline;
+}
+.list-dot p::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: #ccc;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
