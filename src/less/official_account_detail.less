@@ -1,0 +1,124 @@
+@import 'variable.less';
+.qrcode {
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    span {
+        color:@color-1;
+    }
+    em {
+        color:@color-2;
+    }
+}
+
+.detail-left {
+    padding:15px;
+    background:@bg;
+}
+.detail-info {
+    .infos {
+        float:left;
+        width:500px;
+    }
+    p {
+        margin-bottom:10px;
+        text-align: justify;
+    }
+    .detail-head {
+        line-height: 40px;
+        img {
+            float:left;
+            width:80px;
+            height:80px;
+            margin-right:10px;
+        }
+        strong {
+            font-size:25px;
+            font-weight: bold;
+        }
+        
+    }
+    .detail-tag {
+        i {
+            color:red;
+            font-style: normal;
+            font-size:14px;
+            margin-right: 10px;
+        }
+    }
+    b {
+        margin-right:10px;
+    }
+    em {
+        color:@color-2;
+        font-size:14px;
+        line-height: 22px;
+    }
+
+    .qrcode {
+        float:right;
+        width: 150px;
+    }
+    
+}
+.detail-recent-publish {
+    margin-top:40px;
+    h3.detail-title {
+        font-weight: 800px;
+        line-height: 2.5;
+        border-bottom: @border;
+        margin-bottom: 20px;
+        span {
+            padding-left: 10px;
+            border-left: 3px solid red;
+        }
+    }
+    .pub-item {
+        overflow: hidden;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        border-bottom: @border;
+        .item-info {
+            float:left;
+            width:500px;
+            .item-title {
+                font-size:22px;
+                height:40px;
+            }
+            .item-intro {
+                font-size:14px;
+                color:@color-1;
+                height:50px;
+                line-height: 25px;
+            }
+            em {
+                margin-top:40px;
+                font-size:14px;
+                color:@color-2;
+                height:20px;
+                line-height: 20px;
+            }
+        }
+        img {
+            float: right;
+        }
+    }
+    .follow-wechat {
+        text-align: center;
+        p {
+            margin-bottom: 20px;
+            font-size:14px;
+        }
+    }
+}
+.detail-right {
+    h3 {
+        margin-bottom: 15px;
+    }
+    .similar-account,.recommend-account {
+        padding:15px;
+        background:@bg;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,114 @@
+.qrcode {
+  padding-bottom: 10px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+}
+.qrcode span {
+  color: #5A5959;
+}
+.qrcode em {
+  color: #979696;
+}
+.detail-left {
+  padding: 15px;
+  background: #F5F5F5;
+}
+.detail-info .infos {
+  float: left;
+  width: 500px;
+}
+.detail-info p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.detail-info .detail-head {
+  line-height: 40px;
+}
+.detail-info .detail-head img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.detail-info .detail-head strong {
+  font-size: 25px;
+  font-weight: bold;
+}
+.detail-info .detail-tag i {
+  color: red;
+  font-style: normal;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.detail-info b {
+  margin-right: 10px;
+}
+.detail-info em {
+  color: #979696;
+  font-size: 14px;
+  line-height: 22px;
+}
+.detail-info .qrcode {
+  float: right;
+  width: 150px;
+}
+.detail-recent-publish {
+  margin-top: 40px;
+}
+.detail-recent-publish h3.detail-title {
+  font-weight: 800px;
+  line-height: 2.5;
+  border-bottom: 1px solid #DCDCDC;
+  margin-bottom: 20px;
+}
+.detail-recent-publish h3.detail-title span {
+  padding-left: 10px;
+  border-left: 3px solid red;
+}
+.detail-recent-publish .pub-item {
+  overflow: hidden;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #DCDCDC;
+}
+.detail-recent-publish .pub-item .item-info {
+  float: left;
+  width: 500px;
+}
+.detail-recent-publish .pub-item .item-info .item-title {
+  font-size: 22px;
+  height: 40px;
+}
+.detail-recent-publish .pub-item .item-info .item-intro {
+  font-size: 14px;
+  color: #5A5959;
+  height: 50px;
+  line-height: 25px;
+}
+.detail-recent-publish .pub-item .item-info em {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #979696;
+  height: 20px;
+  line-height: 20px;
+}
+.detail-recent-publish .pub-item img {
+  float: right;
+}
+.detail-recent-publish .follow-wechat {
+  text-align: center;
+}
+.detail-recent-publish .follow-wechat p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.detail-right h3 {
+  margin-bottom: 15px;
+}
+.detail-right .similar-account,
+.detail-right .recommend-account {
+  padding: 15px;
+  background: #F5F5F5;
+  margin-bottom: 20px;
+}
