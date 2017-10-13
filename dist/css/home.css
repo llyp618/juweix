@@ -4,6 +4,7 @@
 .recommend {
   background: #F5F5F5;
   padding: 10px 15px;
+  margin-bottom: 20px;
 }
 .recommend-list > li {
   width: 484px;
@@ -86,28 +87,26 @@
   width: 80px;
   height: 80px;
 }
-.recent-included .left-box {
-  width: 755px;
-  float: left;
-  padding-top: 5px;
+.recent-included {
   background: #F5F5F5;
+  margin-bottom: 20px;
 }
-.recent-included .left-box h3 {
-  padding-left: 15px;
+.recent-included .left-box {
+  padding: 5px 15px;
 }
 .recent-included .left-box h3 em {
   color: #979696;
   float: right;
   height: 40px;
   line-height: 40px;
-  margin-right: 15px;
 }
 .recent-included .left-box ul {
-  margin-left: 4px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .recent-included .left-box ul li {
   float: left;
-  padding: 11px;
+  padding: 10px;
   text-align: center;
   font-size: 12px;
 }
@@ -123,10 +122,7 @@
   height: 80px;
 }
 .recent-included .right-box {
-  float: right;
-  width: 202px;
-  padding: 10px 15px;
-  background: #F5F5F5;
+  padding: 10px 15px 15px;
 }
 .recent-included .right-box .submit-btn {
   line-height: 40px;
@@ -144,7 +140,6 @@
 }
 .recent-included .right-box h3 {
   margin-bottom: 10px;
-  font-weight: bold;
 }
 .recent-included .right-box .hot-recommend {
   margin-bottom: 20px;
@@ -176,7 +171,7 @@
 }
 .classify .classify-box {
   float: left;
-  padding: 10px 15px;
+  padding: 15px 15px;
   width: 470px;
 }
 .classify .classify-box h3 a {
@@ -207,12 +202,66 @@
   width: 80px;
   height: 80px;
 }
-.top-line {
+.wechat-group {
+  margin-bottom: 20px;
+  background-color: #F5F5F5;
+}
+.wechat-group .left-box {
+  padding: 5px 15px;
+}
+.wechat-group .left-box h3 a {
+  float: right;
+  color: #979696;
+}
+.wechat-group .left-box ul {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.wechat-group .left-box ul li {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.wechat-group .left-box ul img,
+.wechat-group .left-box ul em {
+  display: block;
+}
+.wechat-group .left-box ul img {
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  width: 80px;
+  height: 80px;
+}
+.wechat-group .right-box {
   padding: 10px 15px;
+}
+.wechat-group .right-box h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.wechat-group .right-box .group-classify {
+  line-height: 24px;
+}
+.wechat-group .right-box .group-classify a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 4px;
+  color: #5A5959;
+}
+.wechat-group .right-box .group-classify a.active {
+  color: #d11216;
+}
+.wechat-group .right-box .group-classify a:hover {
+  color: #d11216;
+}
+.top-line {
   background: #F5F5F5;
 }
 .top-line h3.title {
-  margin-bottom: 15px;
+  margin: 0 15px 15px;
+  padding: 10px 0;
   border-bottom: 1px solid #DCDCDC;
 }
 .top-line h3.title p {
@@ -230,12 +279,10 @@
   color: #d11216;
 }
 .top-line .top-line-left {
-  float: left;
-  width: 700px;
+  padding: 10px 15px;
 }
 .top-line .top-line-right {
-  float: right;
-  width: 250px;
+  padding: 10px 15px;
 }
 .top-line .top-line-right h3 {
   margin-bottom: 10px;
@@ -251,7 +298,7 @@
   margin-bottom: 18px;
 }
 .top-line .top-line-right ol li p {
-  width: 160px;
+  width: 135px;
   float: left;
 }
 .top-line .top-line-right ol li p a.tr-title {
@@ -274,5 +321,5 @@
 .top-line .top-line-right ol li img {
   width: 80px;
   float: right;
-  margin-left: 7px;
+  margin-left: 5px;
 }

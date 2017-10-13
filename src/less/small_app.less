@@ -1,0 +1,139 @@
+@import 'variable.less';
+.qrcode {
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    span {
+        color:@color-1;
+    }
+    em {
+        color:@color-2;
+    }
+}
+
+.app-left {
+    padding:15px;
+    background:@bg;
+}
+.app-info {
+    .infos {
+        float:left;
+        width:500px;
+    }
+    p {
+        margin-bottom:20px;
+        text-align: justify;
+    }
+    .app-head {
+        line-height: 40px;
+        img {
+            float:left;
+            width:80px;
+            height:80px;
+            margin-right:10px;
+        }
+        strong {
+            font-size:25px;
+            font-weight: bold;
+        }
+        i {
+            margin-right:20px;
+            font-size:14px;
+            color:red;
+            padding:3px 4px;
+            border:1px solid #ccc;
+        }
+        
+    }
+    .app-oa {
+        a {
+            font-size:15px;
+            color:@link;
+        }
+    }
+    b {
+        margin-right:10px;
+    }
+    em {
+        color:@color-2;
+        font-size:14px;
+        line-height: 22px;
+    }
+
+    .qrcode {
+        float:right;
+        width: 150px;
+    }
+    
+}
+.app-detail {
+    margin-top:40px;
+    h3.app-title {
+        font-weight: 800px;
+        line-height: 2.5;
+        border-bottom: @border;
+        margin-bottom: 20px;
+        span {
+            padding-left: 10px;
+            border-left: 3px solid red;
+        }
+    }
+    .app-cuts {
+        text-align: center;
+    }
+    .app-foos {
+        li {
+            line-height: 32px;
+            color:@color-1;
+        }   
+    }
+    .app-recommends {
+        a {
+            margin-right:10px;
+        }
+        img {
+            width:100px;
+            height:100px;
+        }
+    }
+}
+.app-right {
+    h3 {
+        margin-bottom: 15px;
+    }
+    .similar-app,.recommend-app {
+        padding:15px;
+        background:@bg;
+        margin-bottom: 20px;
+    }
+    .recommend-app {
+        li {
+            margin-top:10px;
+        }
+        a {
+            overflow: hidden;
+            display: block;
+            width:100%;
+            font-size: 14px;
+            line-height: 22px;
+            img {
+                float:left;
+                width:50px;
+                height:50px;
+                margin-right: 10px;
+            }
+            strong, em {
+                display: inline-block;
+                width:160px;
+                .no-wrap();
+            }
+            strong {
+                color:@color-1;
+            }
+            em {
+                color:@color-2;
+            }
+        }
+    }
+}

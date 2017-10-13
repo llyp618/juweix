@@ -179,39 +179,41 @@ h3 {
   padding-right: 0;
 }
 .header {
+  border-bottom: 1px solid #DCDCDC;
+}
+.header-wrap {
   width: 1000px;
   height: 80px;
   margin: 0 auto;
-  border-bottom: 1px solid #DCDCDC;
 }
-.header .header-logo {
+.header-wrap .header-logo {
   width: 202px;
   float: left;
 }
-.header .header-logo img {
+.header-wrap .header-logo img {
   margin-top: 10px;
 }
-.header .header-nav {
+.header-wrap .header-nav {
   float: left;
   width: 530px;
   padding-left: 15px;
 }
-.header .header-nav ul {
+.header-wrap .header-nav ul {
   height: 80px;
 }
-.header .header-nav li {
+.header-wrap .header-nav li {
   height: 100%;
   line-height: 80px;
   float: left;
   padding: 0 15px;
 }
-.header .header-nav li a.active {
+.header-wrap .header-nav li a.active {
   color: #d11216;
 }
-.header .header-nav li a:hover {
+.header-wrap .header-nav li a:hover {
   color: #d11216;
 }
-.header .header-search {
+.header-wrap .header-search {
   height: inherit;
   width: 250px;
   float: right;
@@ -442,23 +444,26 @@ ul.rank li em {
   width: 60px;
 }
 .sec-nav {
+  border-bottom: 1px solid #DCDCDC;
+  background: #F5F5F5;
+  margin-bottom: 20px;
+}
+.sec-nav .sec-nav-wrapper {
+  width: 1000px;
+  margin: 0 auto;
   height: 40px;
   line-height: 40px;
-  border-bottom: 1px solid #DCDCDC;
-  margin-bottom: 20px;
-  padding-left: 10px;
-  background: #F5F5F5;
   overflow: hidden;
 }
-.sec-nav .nav-link {
+.sec-nav .sec-nav-wrapper .nav-link {
   font-size: 14px;
   margin-right: 16px;
   color: #5A5959;
 }
-.sec-nav .nav-link.active {
+.sec-nav .sec-nav-wrapper .nav-link.active {
   color: #d11216;
 }
-.sec-nav .nav-link:hover {
+.sec-nav .sec-nav-wrapper .nav-link:hover {
   color: #d11216;
 }
 .fl {

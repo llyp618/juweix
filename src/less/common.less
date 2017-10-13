@@ -102,10 +102,12 @@ h3 {
     }
 }
 .header {
+    border-bottom:@globle-border;
+}
+.header-wrap {
     width: @globle-width;
     height:80px;
     margin: 0 auto;
-    border-bottom:@globle-border;
     .header-logo {
         width:202px;
         float:left;
@@ -366,18 +368,21 @@ ul.rank {
 // 次级导航
 
 .sec-nav {
-    height: 40px;
-    line-height: 40px;
     border-bottom: @globle-border;
-    margin-bottom: 20px;
-    padding-left:10px;
     background:@globle-background;
-    overflow: hidden;
-    .nav-link {
-        font-size:14px;
-        margin-right:16px;
-        color:@color-1;
-        .link();
+    margin-bottom: 20px;
+    .sec-nav-wrapper {
+        width:@globle-width;
+        margin:0 auto;
+        height: 40px;
+        line-height: 40px;
+        overflow: hidden;
+        .nav-link {
+            font-size:14px;
+            margin-right:16px;
+            color:@color-1;
+            .link();
+        }
     }
 }
 

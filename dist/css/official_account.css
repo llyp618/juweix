@@ -33,13 +33,13 @@
   margin-top: 30px;
 }
 .oa-content {
-  background: #F5F5F5;
   padding-bottom: 20px;
   padding-top: 5px;
 }
 .oa-content .oa-lists {
   overflow: hidden;
-  padding-left: 10px;
+  padding: 0 15px 15px;
+  background: #F5F5F5;
 }
 .oa-content .oa-lists .oa-classify {
   border-bottom: 1px solid #DCDCDC;
@@ -47,7 +47,7 @@
 }
 .oa-content .oa-lists .oa-classify a {
   display: inline-block;
-  margin-left: 13px;
+  margin-left: 11px;
   font-size: 13px;
 }
 .oa-content .oa-lists .oa-classify a.active {
@@ -57,17 +57,18 @@
   color: #d11216;
 }
 .oa-content .oa-lists ul {
-  margin-left: -13px;
-  margin-right: -13px;
+  margin-left: -11px;
+  margin-right: -11px;
   overflow: hidden;
 }
 .oa-content .oa-lists ul li {
   float: left;
-  padding: 0 13px;
+  padding: 0 11px;
   margin-bottom: 13px;
 }
 .oa-content .oa-rank {
-  padding: 0 10px;
+  padding: 0 15px 15px;
+  background: #F5F5F5;
 }
 .oa-content .oa-rank h3 {
   font-weight: bold;
