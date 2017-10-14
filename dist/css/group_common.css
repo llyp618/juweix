@@ -1,0 +1,82 @@
+.sec-nav .btn {
+  width: 100px;
+  float: right;
+  margin-top: 7px;
+  font-size: 14px;
+}
+.recommend-groups {
+  margin-bottom: 10px;
+}
+.recommend-groups ul {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.recommend-groups li {
+  float: left;
+  width: 20%;
+}
+.group-item1 {
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid #DCDCDC;
+  line-height: 22px;
+}
+.group-item1 h4 {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.group-item1 h4 .group-title {
+  float: left;
+  width: 120px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.group-item1 h4 .group-follow {
+  float: right;
+  font-size: 14px;
+  color: red;
+  width: 50px;
+  text-align: right;
+}
+.group-item1 .group-img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.group-item1 .group-img img {
+  width: 100%;
+}
+.group-item1 em {
+  display: block;
+  font-size: 14px;
+  color: #5A5959;
+}
+.group-list .conditions section {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.group-list .conditions p {
+  line-height: 30px;
+  font-size: 14px;
+  float: left;
+  width: 630px;
+}
+.group-list .conditions strong {
+  width: 80px;
+  line-height: 30px;
+  color: #D13931;
+  float: left;
+  text-align: right;
+}
+.group-list .conditions a {
+  display: inline-block;
+  margin-right: 20px;
+}
+.group-list .conditions a.active {
+  color: #d11216;
+}
+.group-list .conditions a:hover {
+  color: #d11216;
+}
