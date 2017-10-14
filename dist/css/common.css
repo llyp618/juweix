@@ -476,6 +476,12 @@ ul.rank li em {
   float: right;
   width: 250px;
 }
+.fr .right-box {
+  padding: 10px 15px;
+}
+.fr h3 {
+  margin-bottom: 10px;
+}
 .pagination {
   margin-top: 40px;
   text-align: center;

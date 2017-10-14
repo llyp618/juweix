@@ -53,19 +53,19 @@
   font-size: 14px;
   color: #5A5959;
 }
-.group-list .conditions section {
+.group-list .conditions .section {
   margin-bottom: 15px;
   overflow: hidden;
 }
 .group-list .conditions p {
-  line-height: 30px;
+  line-height: 20px;
   font-size: 14px;
   float: left;
-  width: 630px;
+  width: 550px;
 }
 .group-list .conditions strong {
   width: 80px;
-  line-height: 30px;
+  line-height: 20px;
   color: #D13931;
   float: left;
   text-align: right;
@@ -78,5 +78,116 @@
   color: #d11216;
 }
 .group-list .conditions a:hover {
+  color: #d11216;
+}
+.group-list .fl {
+  width: 650px;
+}
+.group-list .fr {
+  width: 330px;
+}
+.group-list .group-title {
+  border-bottom: 1px solid #DCDCDC;
+  margin-bottom: 20px;
+}
+.group-list .group-title span {
+  display: inline-block;
+  background: #FA3737;
+  padding: 10px;
+  color: #fff;
+}
+.group-list .group-title strong {
+  float: right;
+  height: 100%;
+  line-height: 36px;
+  font-size: 14px;
+}
+.group-list .group-title strong a.active {
+  color: #d11216;
+}
+.group-list .group-title strong a:hover {
+  color: #d11216;
+}
+.group-list .group-item {
+  overflow: hidden;
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.group-list .group-item .item-img {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-right: 20px;
+}
+.group-list .group-item .item-img img {
+  width: 100%;
+  height: 100%;
+}
+.group-list .group-item p {
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.group-list .group-item .item-title {
+  font-size: 18px;
+  width: 300px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.group-list .group-item .item-title a.active {
+  color: #d11216;
+}
+.group-list .group-item .item-title a:hover {
+  color: #d11216;
+}
+.group-list .group-item .item-intro,
+.group-list .group-item .item-classify {
+  font-size: 14px;
+  color: #979696;
+}
+.group-list .group-item .item-tag i {
+  font-size: 14px;
+  color: #5A5959;
+  padding: 2px 4px;
+  background: #D8D7D7;
+  margin-right: 10px;
+}
+.group-list .group-item .item-time-popularity {
+  position: absolute;
+  height: 40px;
+  line-height: 40px;
+  color: #979696;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+}
+.area-statistics {
+  border: 1px solid #DCDCDC;
+  padding: 10px;
+}
+.area-statistics li {
+  width: 50%;
+  margin-bottom: 5px;
+  float: left;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.area-statistics li a {
+  font-size: 12px;
+  color: #5A5959;
+}
+.area-statistics li a.active {
+  color: #d11216;
+}
+.area-statistics li a:hover {
   color: #d11216;
 }
