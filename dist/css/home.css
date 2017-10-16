@@ -1,8 +1,11 @@
+body {
+  background: #F5F5F5;
+}
 .content {
   margin-top: 20px;
 }
 .recommend {
-  background: #F5F5F5;
+  background: #FFF;
   padding: 10px 15px;
   margin-bottom: 20px;
 }
@@ -88,7 +91,7 @@
   height: 80px;
 }
 .recent-included {
-  background: #F5F5F5;
+  background: #FFF;
   margin-bottom: 20px;
 }
 .recent-included .left-box {
@@ -167,7 +170,7 @@
   width: 100%;
 }
 .classify {
-  background: #F5F5F5;
+  background: #FFF;
 }
 .classify .classify-box {
   float: left;
@@ -204,7 +207,7 @@
 }
 .wechat-group {
   margin-bottom: 20px;
-  background-color: #F5F5F5;
+  background-color: #FFF;
 }
 .wechat-group .left-box {
   padding: 5px 15px;
@@ -278,7 +281,7 @@
   cursor: pointer;
 }
 .wechat-source {
-  background: #F5F5F5;
+  background: #FFF;
   margin-bottom: 20px;
 }
 .wechat-source .left-box {
@@ -310,7 +313,7 @@
   white-space: nowrap;
 }
 .top-line {
-  background: #F5F5F5;
+  background: #FFF;
 }
 .top-line h3.title {
   margin: 0 15px 15px;

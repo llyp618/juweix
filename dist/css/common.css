@@ -142,7 +142,7 @@ h3 {
 .topbar {
   position: relative;
   color: #666;
-  background-color: #f2f2f2;
+  background-color: #EBE9E9;
   width: 100%;
   vertical-align: middle;
   border-top: 2px solid #e1e1e1;
@@ -180,6 +180,7 @@ h3 {
 }
 .header {
   border-bottom: 1px solid #DCDCDC;
+  background: #fff;
 }
 .header-wrap {
   width: 1000px;
@@ -207,11 +208,17 @@ h3 {
   float: left;
   padding: 0 15px;
 }
+.header-wrap .header-nav li a {
+  padding-bottom: 5px;
+}
 .header-wrap .header-nav li a.active {
   color: #d11216;
 }
 .header-wrap .header-nav li a:hover {
   color: #d11216;
+}
+.header-wrap .header-nav li a.active {
+  border-bottom: 2px solid #d11216;
 }
 .header-wrap .header-search {
   height: inherit;
@@ -446,7 +453,7 @@ ul.rank li em {
 }
 .sec-nav {
   border-bottom: 1px solid #DCDCDC;
-  background: #F5F5F5;
+  background: #f5f5f5;
   margin-bottom: 20px;
 }
 .sec-nav .sec-nav-wrapper {

@@ -1,3 +1,6 @@
+body {
+  background: #f5f5f5;
+}
 .qrcode {
   padding-bottom: 10px;
   text-align: center;
@@ -12,7 +15,7 @@
 }
 .detail-left {
   padding: 15px;
-  background: #F5F5F5;
+  background: #FFF;
 }
 .detail-info .infos {
   float: left;
@@ -109,6 +112,6 @@
 .detail-right .similar-account,
 .detail-right .recommend-account {
   padding: 15px;
-  background: #F5F5F5;
+  background: #FFF;
   margin-bottom: 20px;
 }

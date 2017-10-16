@@ -65,7 +65,7 @@ h3 {
 .topbar {
     position: relative;
     color: #666;
-    background-color: #f2f2f2;
+    background-color: #EBE9E9;
     width:100%;
     vertical-align: middle;
     border-top:2px solid #e1e1e1;
@@ -103,6 +103,7 @@ h3 {
 }
 .header {
     border-bottom:@globle-border;
+    background:#fff;
 }
 .header-wrap {
     width: @globle-width;
@@ -129,6 +130,10 @@ h3 {
             padding:0 15px;
             a {
                 .link();
+                padding-bottom:5px;
+                &.active {
+                    border-bottom: 2px solid @highlight1;
+                }
             }
         }
     }
@@ -370,7 +375,7 @@ ul.rank {
 
 .sec-nav {
     border-bottom: @globle-border;
-    background:@globle-background;
+    background:@bg2;
     margin-bottom: 20px;
     .sec-nav-wrapper {
         width:@globle-width;

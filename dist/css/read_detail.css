@@ -1,6 +1,9 @@
+body {
+  background: #f5f5f5;
+}
 .article-area {
-  border: 1px solid #DCDCDC;
   padding: 20px;
+  background: #FFF;
 }
 .article-area h3.article-title {
   font-size: 26px;
@@ -29,9 +32,9 @@
 .follow-wechat,
 .recent-publish,
 .read-rank {
-  border: 1px solid #DCDCDC;
   padding: 15px;
   margin-bottom: 20px;
+  background: #FFF;
 }
 .follow-wechat .qrcode {
   padding-bottom: 10px;

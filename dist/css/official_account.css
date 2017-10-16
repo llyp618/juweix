@@ -1,3 +1,6 @@
+body {
+  background: #f5f5f5;
+}
 .oa-banner {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -39,7 +42,7 @@
 .oa-content .oa-lists {
   overflow: hidden;
   padding: 0 15px 15px;
-  background: #F5F5F5;
+  background: #FFF;
 }
 .oa-content .oa-lists .oa-classify {
   border-bottom: 1px solid #DCDCDC;
@@ -68,7 +71,7 @@
 }
 .oa-content .oa-rank {
   padding: 0 15px 15px;
-  background: #F5F5F5;
+  background: #FFF;
 }
 .oa-content .oa-rank h3 {
   font-weight: bold;
