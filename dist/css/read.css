@@ -80,7 +80,7 @@
 .read-list .left-list .left-list-nav {
   line-height: 40px;
   height: 40px;
-  background: #FFF;
+  background: #f5f5f5;
   padding-left: 10px;
   margin-bottom: 20px;
 }
@@ -91,6 +91,7 @@
   color: #d11216;
 }
 .read-list .left-list .left-list-nav a.active {
+  color: #d11216;
   border-bottom: 2px solid #d11216;
 }
 .read-list .left-list .left-list-content {

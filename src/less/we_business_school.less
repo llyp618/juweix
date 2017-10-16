@@ -1,0 +1,182 @@
+@import 'variable.less';
+
+.sec-nav {
+    .btn {
+        width:100px;
+        float:right;
+        margin-top:7px;
+        font-size:14px;
+    }
+}
+.school-head {
+    margin-bottom:20px;
+    .school-head-img {
+        float:left;
+        width:300px;
+        margin-right: 30px;
+        img {
+            height: 300px;
+            width: 300px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        p {
+            width:100%;
+            height:100px;
+            color:@color-1;
+            font-size:14px;
+            line-height: 20px;
+            text-align: justify;
+            overflow: hidden;
+        }
+    }
+    .school-head-info {
+        float:left;
+        width:400px;
+        h3 {
+            font-size:22px;
+            margin-bottom:10px;
+        }
+        .top-intro {
+            color:@color-1;
+            line-height: 22px;
+            a {
+                color:red;
+                cursor:pointer;
+            }
+        }
+        strong {
+            background:@highlight1;
+            color:#fff;
+            margin:10px 0;
+            padding:10px;
+            display: inline-block;
+        }
+        .list-dot {
+            margin-top:0;
+        }
+        .list-dot p {
+            .no-wrap();
+        }
+    }
+}
+.school-article-list {
+    .article-list-nav {
+        line-height: 40px;
+        height:40px;
+        background:@bg2;
+        padding-left:10px;
+        margin-bottom:20px;
+        a {
+            margin-right:20px;
+            &:hover {
+                color:#d11216;
+            }
+            &.active {
+                color:#d11216;
+                border-bottom:2px solid #d11216;
+            }
+        }
+    }
+    .article-list {
+        .article-item {
+            overflow: hidden;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            border-bottom: @border;
+            .item-img {
+                float:left;
+                width:200px;
+                height:100px;
+                margin-right: 10px;
+                img {
+                    width:100%;
+                    height:100%;
+                }
+            }
+            h4 {
+                .no-wrap();
+                font-size:18px;
+                margin-bottom: 10px;
+            }
+            .item-intro {
+                color:@color-1;
+                font-size:14px;
+                line-height: 22px;
+                height:44px;
+                overflow: hidden;
+            }
+            .item-time-tag {
+                line-height: 20px;
+                color:@color-1;
+                font-size:14px;
+                margin-top:10px;
+                em {
+                    margin-right:40px;
+                }
+                i {
+                    background:#D8D7D7;
+                    padding:2px 4px;
+                }
+            }
+        }
+    }
+}
+
+.fr-box {
+    border-top:@border;
+    margin-bottom: 30px;
+    h3 {
+        padding-top: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        display: inline-block;
+        border-top: 2px solid red;
+        position: relative;
+        top: -1px;
+        font-size:18px;
+    }
+    .top-case {
+        overflow: hidden;
+        margin-bottom:10px;
+        .case-img {
+            float:left;
+            width:100px;
+            height:100px;
+            margin-right:5px;
+            img {
+                width:100%;
+                height:100%;
+            }
+        }
+        p {
+            font-size:14px;
+            color:@color-2;
+            line-height:1.3;
+            text-align: justify;
+            a {
+                color:red;
+            }
+        }
+    }
+    ul.alist {
+        li {
+            line-height: 20px;
+            margin-bottom:5px;
+            .no-wrap();
+            a {
+                .link();
+                font-size:14px;
+            }
+        }
+    }
+    .rank {
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            width:220px;
+            font-size:14px;
+        }
+    }
+}

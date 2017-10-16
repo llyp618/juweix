@@ -532,8 +532,8 @@ a.wechat-head em {
 }
 a.wechat-head img {
   margin-bottom: 5px;
-  border-radius: 3px;
   border: 1px solid #eee;
+  border-radius: 3px;
   width: 100%;
 }
 .list-dot {

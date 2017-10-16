@@ -1,0 +1,108 @@
+@import 'variable.less';
+
+.article-area {
+    padding:20px;
+    background:@bg;
+    border:@border;
+    h3.article-title {
+        font-size:26px;
+        font-weight: bold;
+        line-height: 40px;
+        height:40px;
+        padding-bottom: 10px;
+        border-bottom:@globle-border;
+    }
+    .article-info {
+        font-size:14px;
+        line-height: 40px;
+        span {
+            color:@color-2;
+            margin-right:20px;
+        }
+        a {
+            color:@link;
+        }
+    }
+    .article-content {
+        line-height: 40px;
+        font-size:16px;
+        color:#404040;
+    }
+}
+.article-footer {
+    overflow: hidden;
+    margin-top:10px;
+    color:@color-1;
+    .prev {
+        float:left;
+        strong {
+            margin-right:20px;
+            color:@highlight1;
+        }
+    }
+    .next {
+        float:right;
+        strong {
+            margin-left:20px;
+            color:@highlight1;
+        }
+    }
+}
+// article_detail 
+.fr-box {
+    border-top:@border;
+    margin-bottom: 30px;
+    h3 {
+        padding-top: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        display: inline-block;
+        border-top: 2px solid red;
+        position: relative;
+        top: -1px;
+        font-size:18px;
+    }
+    .top-case {
+        overflow: hidden;
+        margin-bottom:10px;
+        .case-img {
+            float:left;
+            width:100px;
+            height:100px;
+            margin-right:5px;
+            img {
+                width:100%;
+                height:100%;
+            }
+        }
+        p {
+            font-size:14px;
+            color:@color-2;
+            line-height:1.3;
+            text-align: justify;
+            a {
+                color:red;
+            }
+        }
+    }
+    ul.alist {
+        li {
+            line-height: 20px;
+            margin-bottom:5px;
+            .no-wrap();
+            a {
+                .link();
+                font-size:14px;
+            }
+        }
+    }
+    .rank {
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            width:220px;
+            font-size:14px;
+        }
+    }
+}
