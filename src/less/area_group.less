@@ -1,0 +1,73 @@
+@import 'variable.less';
+
+.letters {
+    background:@bg2;
+    color:@color-1;
+    line-height: 40px;
+    height:40px;
+    a {
+        display: inline-block;
+        height: 100%;
+        padding:0 10px;
+        margin-right:2px;
+        &:hover,&.active {
+            background:#333;
+            color:#fff;
+        }
+
+    }
+}
+.search-box {
+    height:40px;
+    line-height: 40px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    .hottest {
+        float:left;
+        a {
+            margin-right:15px;
+            color:red;
+        }
+    }
+    form {
+        float:right;
+        line-height: 40px;
+        overflow: hidden;
+        input {
+            height:32px;
+            font-size:16px;
+            text-indent: 5px;
+            vertical-align: bottom;
+        }
+        button {
+            font-size:16px;
+            height:38px;
+            background:@bg2;
+            border:@border;
+            cursor: pointer;
+            vertical-align: bottom;
+        }
+    }
+}
+table.area-table {
+    width:100%;
+    margin-bottom:20px;
+    border:@border;
+    tr {
+        height: 80px;
+        &:nth-child(2n + 1) {
+            background:@bg2;
+        }
+        td {
+            border: @border;
+            vertical-align: middle;
+            line-height: 24px;
+            padding:10px;
+            color:@color-1;
+        }
+        td:first-child {
+            width:120px;
+            text-align: center;
+        }
+    }
+}

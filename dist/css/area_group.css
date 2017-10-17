@@ -1,0 +1,71 @@
+.letters {
+  background: #f5f5f5;
+  color: #5A5959;
+  line-height: 40px;
+  height: 40px;
+}
+.letters a {
+  display: inline-block;
+  height: 100%;
+  padding: 0 10px;
+  margin-right: 2px;
+}
+.letters a:hover,
+.letters a.active {
+  background: #333;
+  color: #fff;
+}
+.search-box {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.search-box .hottest {
+  float: left;
+}
+.search-box .hottest a {
+  margin-right: 15px;
+  color: red;
+}
+.search-box form {
+  float: right;
+  line-height: 40px;
+  overflow: hidden;
+}
+.search-box form input {
+  height: 32px;
+  font-size: 16px;
+  text-indent: 5px;
+  vertical-align: bottom;
+}
+.search-box form button {
+  font-size: 16px;
+  height: 38px;
+  background: #f5f5f5;
+  border: 1px solid #DCDCDC;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+table.area-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #DCDCDC;
+}
+table.area-table tr {
+  height: 80px;
+}
+table.area-table tr:nth-child(2n + 1) {
+  background: #f5f5f5;
+}
+table.area-table tr td {
+  border: 1px solid #DCDCDC;
+  vertical-align: middle;
+  line-height: 24px;
+  padding: 10px;
+  color: #5A5959;
+}
+table.area-table tr td:first-child {
+  width: 120px;
+  text-align: center;
+}

@@ -126,6 +126,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+input,
+button {
+  outline: 0 none;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -473,6 +477,12 @@ ul.rank li em {
 }
 .sec-nav .sec-nav-wrapper .nav-link:hover {
   color: #d11216;
+}
+.sec-nav .sec-nav-wrapper .btn {
+  width: 100px;
+  float: right;
+  margin-top: 7px;
+  font-size: 14px;
 }
 .fl {
   float: left;
