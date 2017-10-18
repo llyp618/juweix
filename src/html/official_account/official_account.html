@@ -29,7 +29,28 @@
     </div>
     <div class="oa-banner clear">
         <div class="oa-banner-left">
-            活动、宣传图片，可轮播
+            <div class="sliders">
+                <ul class="bd">
+                    <li>
+                        <a href="">
+                            <img src="../../img/wechat.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../../img/wechat.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../../img/wechat.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="pag">
+
+                </ul>
+            </div>
         </div>
         <div class="oa-banner-right">
             <div>
@@ -417,4 +438,10 @@
             </div>
         </div>
     </div>
+    <script src="../../libs/superSlide.2.1.1.js"></script>
+    <script>
+        $(function(){
+            $('.sliders').slide({autoPage:true,effect:"left",autoPlay:true,titCell:'.pag'});
+        })
+    </script>
 @@include('./include/footer.html')

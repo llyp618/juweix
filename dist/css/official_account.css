@@ -12,6 +12,15 @@ body {
   border: 1px solid #DCDCDC;
   text-align: center;
 }
+.oa-banner .oa-banner-left .sliders {
+  height: 300px;
+}
+.oa-banner .oa-banner-left .sliders ul.bd li {
+  height: 300px;
+}
+.oa-banner .oa-banner-left .sliders ul.bd li img {
+  height: 300px;
+}
 .oa-banner .oa-banner-right {
   width: 480px;
   float: right;
