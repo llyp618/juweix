@@ -122,7 +122,9 @@ body {
   font-size: 12px;
 }
 .recent-included .right-box {
-  padding: 10px 15px 15px;
+  padding: 0 15px ;
+  margin: 15px 0 15px;
+  border-left: 1px solid #DCDCDC;
 }
 .recent-included .right-box .submit-btn {
   line-height: 40px;
@@ -213,7 +215,9 @@ body {
   font-size: 12px;
 }
 .wechat-group .right-box {
-  padding: 10px 15px;
+  padding: 0 15px;
+  margin: 10px 0;
+  border-left: 1px solid #DCDCDC;
 }
 .wechat-group .right-box h3 {
   margin-top: 5px;
@@ -275,7 +279,9 @@ body {
   width: 150px;
 }
 .wechat-source .right-box {
-  padding: 5px 15px;
+  padding: 0 15px;
+  margin: 10px 0;
+  border-left: 1px solid #DCDCDC;
 }
 .wechat-source .right-box h3 {
   margin-top: 15px;
@@ -309,48 +315,50 @@ body {
 .top-line h3.title p a:hover {
   color: #d11216;
 }
-.top-line .top-line-left {
+.top-line .left-box {
   padding: 10px 15px;
 }
-.top-line .top-line-right {
-  padding: 10px 15px;
+.top-line .right-box {
+  padding: 0 15px;
+  margin: 10px 0;
+  border-left: 1px solid #DCDCDC;
 }
-.top-line .top-line-right h3 {
+.top-line .right-box h3 {
   margin-bottom: 10px;
 }
-.top-line .top-line-right .top-line-img {
+.top-line .right-box .top-line-img {
   background: #fff;
   margin-bottom: 20px;
 }
-.top-line .top-line-right .top-line-img img {
+.top-line .right-box .top-line-img img {
   width: 100%;
 }
-.top-line .top-line-right ol li {
+.top-line .right-box ol li {
   overflow: hidden;
   margin-bottom: 18px;
 }
-.top-line .top-line-right ol li p {
-  width: 135px;
+.top-line .right-box ol li p {
+  width: 130px;
   float: left;
 }
-.top-line .top-line-right ol li p a.tr-title {
+.top-line .right-box ol li p a.tr-title {
   display: block;
   line-height: 20px;
   height: 60px;
   overflow: hidden;
   font-size: 13px;
 }
-.top-line .top-line-right ol li p a.tr-title.active {
+.top-line .right-box ol li p a.tr-title.active {
   color: #d11216;
 }
-.top-line .top-line-right ol li p a.tr-title:hover {
+.top-line .right-box ol li p a.tr-title:hover {
   color: #d11216;
 }
-.top-line .top-line-right ol li p a.tr-wechat {
+.top-line .right-box ol li p a.tr-wechat {
   color: #979696;
   font-size: 14px;
 }
-.top-line .top-line-right ol li img {
+.top-line .right-box ol li img {
   width: 80px;
   float: right;
   margin-left: 5px;
