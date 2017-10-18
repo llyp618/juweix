@@ -98,17 +98,6 @@ body {
   text-align: center;
   font-size: 12px;
 }
-.slide-list .slider ul img,
-.slide-list .slider ul em {
-  display: block;
-}
-.slide-list .slider ul img {
-  margin-bottom: 5px;
-  border-radius: 3px;
-  border: 1px solid #eee;
-  width: 80px;
-  height: 80px;
-}
 .recent-included {
   background: #FFF;
   margin-bottom: 20px;
@@ -131,17 +120,6 @@ body {
   padding: 10px;
   text-align: center;
   font-size: 12px;
-}
-.recent-included .left-box ul img,
-.recent-included .left-box ul em {
-  display: block;
-}
-.recent-included .left-box ul img {
-  margin-bottom: 5px;
-  border-radius: 3px;
-  border: 1px solid #eee;
-  width: 80px;
-  height: 80px;
 }
 .recent-included .right-box {
   padding: 10px 15px 15px;
@@ -187,6 +165,7 @@ body {
 }
 .practical-wechat li a img {
   width: 100%;
+  border-radius: 8px;
 }
 .classify {
   background: #FFF;
@@ -212,18 +191,6 @@ body {
   width: 25%;
   padding: 12px 0;
 }
-.classify .classify-box ul img,
-.classify .classify-box ul em {
-  display: block;
-}
-.classify .classify-box ul img {
-  border-radius: 3px;
-  border: 1px solid #eee;
-  margin: 0 auto;
-  margin-bottom: 5px;
-  width: 80px;
-  height: 80px;
-}
 .wechat-group {
   margin-bottom: 20px;
   background-color: #FFF;
@@ -244,17 +211,6 @@ body {
   padding: 10px;
   text-align: center;
   font-size: 12px;
-}
-.wechat-group .left-box ul img,
-.wechat-group .left-box ul em {
-  display: block;
-}
-.wechat-group .left-box ul img {
-  margin-bottom: 5px;
-  border-radius: 3px;
-  border: 1px solid #eee;
-  width: 80px;
-  height: 80px;
 }
 .wechat-group .right-box {
   padding: 10px 15px;
