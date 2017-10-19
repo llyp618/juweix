@@ -1,0 +1,107 @@
+@import 'variable.less';
+body  {
+    background:@bg2;
+}
+.ranks-wrapper {
+    border:@border;
+    background:#fff;
+    padding:15px;
+    margin-bottom: 10px;
+    hr {
+        margin:30px 0;
+        border:none;
+        border-top:@border;
+    }
+}
+.rank-item {
+    width:280px;
+    margin-right:61px;
+    float:left;
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
+    &.no-mr {
+        margin-right:0;
+    }
+    h3 {
+        overflow: hidden;
+        padding-bottom: 15px;
+        border-bottom: @border;
+        span {
+            padding-left:10px;
+            border-left:3px solid red;
+        }
+        em {
+            float:right;
+            color:@color-2;
+            font-weight: normal;
+            font-size:14px;
+            margin-top:4px;
+        }
+    }
+    ul {
+        li {
+            border-bottom: 1px dotted #ccc;
+            padding:10px 0;
+            &:last-child {
+                border-bottom: none;
+            }
+            &:nth-child(1) {
+                a.wechat-item {
+                    i {
+                        background:#f54545;
+                        color:#fff;
+                    }
+                }
+            }
+            &:nth-child(2) {
+                a.wechat-item {
+                    i {
+                        background:#ff8547;
+                        color:#fff;
+                    }
+                }
+            }
+            &:nth-child(3) {
+                a.wechat-item {
+                    i {
+                        background:#ffac38;
+                        color:#fff;
+                    }
+                }
+            }
+        }
+        a.wechat-item {
+            display: block;
+            overflow: hidden;
+            i,img,span,em {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            i {
+                font-size:12px;
+                padding:3px 5px;
+                background:#ccc;
+                margin-right:12px;
+                height:14px;
+            }
+            img {
+                width:40px;
+                height:40px;
+                border-radius: 7px;
+                margin-right: 8px;
+            }
+            span {
+                width:130px;
+                font-size:14px;
+                .no-wrap();
+            }
+            em {
+                float:right;
+                margin-top:14px;
+                font-size:14px;
+                color:@color-2;
+            }
+        }
+    }
+}
